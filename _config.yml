@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Dexie.js - Minimalistic IndexedDB Wrapper
-email: david.fahlander@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Dexie.js documentation.
-url: "https://dexie.org" # the base hostname & protocol for your site
+title: Awarica AB
+email: info@awarica.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Awarica AB is a software development company based in Stockholm, Sweden. We specialize in open source development, apps, for mobile and web and cloud services.
+url: 'https://awarica.com' # the base hostname & protocol for your site
 twitter_username: dfahlander
-github_username:  dfahlander
-include: ['docs/','cloud/','contact.md','.well-known']
+github_username: dfahlander
+include: ['contact.md', '.well-known']
 exclude: ['*.sh']
 kramdown:
   input: GFM

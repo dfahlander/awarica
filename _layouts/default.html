@@ -9,8 +9,6 @@ prismStyle: 'vscode-dark'
   <body>
 		{% include navbar.html %}
 
-    {% include header.html %}
-
     <main class="container">
       {{ content }}
     </main>
@@ -23,9 +21,6 @@ prismStyle: 'vscode-dark'
 		<script src='/assets/js/bootstrap.min.js'></script>
 
     {% include google-analytics.html %}
-
-    <!-- Include dexie for people wanting to open devtools to laborate -->
-    <script async src='https://unpkg.com/dexie'></script>
     
     <!-- Highlight anchors the same way as github wiki works -->
     <script defer src="/assets/js/highlight-anchors.js"></script>
