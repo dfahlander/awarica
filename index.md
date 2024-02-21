@@ -1,3 +1,3 @@
 ﻿---
-layout: dexie-landing-page
+layout: awarica-landing-page
 ---

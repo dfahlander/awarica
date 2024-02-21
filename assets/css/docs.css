@@ -35,9 +35,55 @@ header.site-header {
 	padding: 15px 15px 15px 15px;
 }
 
+.awarica-landing-page-jumbotron {
+	overflow: hidden;
+	position: relative;
+	padding: 65px 15px 65px 15px;
+	background-image:linear-gradient( #1e3fd3, #1e3fd3ea, #1e3fd3, #1e3fd3a5, #2355e070, #2f00ffa9);
+	/*background-image: linear-gradient( #100622, #502e8f, #00d5ff, #f6ff00,#00d5ff,#502e8f,#514fd2);*/
+	/*background-image: url(/assets/images/bg5.png);
+	background-size: cover;
+	background-position-x: 0;
+	background-position-y: -60px;*/
+	color: white;
+}
+
+.awarica-landing-page-jumbotron .container {
+	position: relative;
+}
+
+.bg-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+	.awarica-landing-page-jumbotron {
+		padding: 115px 0 90px 0;
+	}
+}
+
+main.container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+	main.container {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}
+
+
 .docs-page-jumbotron.dexie-cloud-docs {
 	background-image: linear-gradient( #5471e9, #1e3fd3,#4b965f);
 }
+
+
 
 .docs-page-jumbotron.dexie-cloud {
 	background: transparent;

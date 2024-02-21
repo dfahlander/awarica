@@ -20,51 +20,38 @@
 
 		<div class='jumbotron' id='parallax'>
 			<div class='parallax-wrap'>
-				<div class='layer' data-depth='.3'>
-					<img src='/assets/images/bg.png'/>
+				<div class='layer'>
+					<img src='/assets/images/bg5.png'/>
 				</div>
+<!--						<div class='layer' data-depth='.3'>
+					<img src='/assets/images/cool-background2.png'/>
+				</div>-->
 			</div>
+			<!-- <div class="video-parent">
+				<video class="banner-video" autoplay muted loop>
+					<source src="https://dexie.blob.core.windows.net/dexie/Galaxy.mp4" type="video/mp4">
+				</video>
+			</div>	 -->
 			<div class='container'>
-				<img src="assets/images/dexie-logo-icon.svg" class="dexie-logo-icon" />
-				<h1>Dexie.js</h1>
-				<p>A Minimalistic Wrapper for IndexedDB</p>
-				<span class='size-details'>( only ~25k minified and gzipped )</span>
-				<div style="display: inline-flex;">
-					<div style="flex: 1; padding: 0 2px 0 0;">
-						<a class='getstarted btn btn-primary btn-lg' href='/docs/Tutorial/Getting-started' role='button'>
-							<span class='glyphicon glyphicon-flash'></span>
-							<span class='widescreen'>Getting started</span>
-							<span class='slimscreen'>Get started</span>
-						</a>
-					</div>
-				</div>
-				<br/>
-				<div style="padding-top: 18px; "></div>
-					<a style="color: white; font-style: italic; opacity: 0.8;" href='https://jsfiddle.net/dfahlander/3tf5r0cu'>
-						<span class='glyphicon glyphicon-edit'></span>
-						<span>Play in JSFiddle</span>
-					</a>
-				</div>
-				<!-- <a href="/cloud/" id="cloud-promoter">
+				<br>
+				<br>
+				<h1>Awarica AB</h1>
+				<p>
+					We enable greater apps by providing the best tools for developers.
+				</p>
+				<!--<a href="/cloud/" id="cloud-promoter">
 					<div class="shoutouts">
-						<p>Need sync?</p>
-						<p>Create collaborative offline-first apps</p>
-						<p>Easy to get started</p>
+						<p>Dexie.js</p>
+						<p>Dexie Cloud</p>
 					</div>
-					<p>Coming soon: Dexie Cloud<span class="beta">BETA</span><span style="display: inline-block; margin-left: -1em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</span></p>
-				</a> -->
+					<p>read more<span style="display: inline-block; margin-left: -1em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</span></p>
+				</a>-->
 			</div>
 		</div>
 
 		{{ content }}
 
-		<div class='container'>
-			<footer>
-				<p style="font-size:21px; color:black; ">Browser testing via <a href="https://www.lambdatest.com/" target="_blank"><img src="https://www.lambdatest.com/support/img/logo.svg" style="vertical-align: middle;margin-left:5px" width="147" height="26" /></a></p>
-				<br/>
-				<p>&copy; 2014-2024 Dexie.js is the creation of David Fahlander and managed by Awarica AB.</p>
-			</footer>
-		</div>
+		{% include footer.html %}
 
 		<script src='/assets/js/jquery.min.js'></script>
 		<script src='/assets/js/bootstrap.min.js'></script>
@@ -74,7 +61,7 @@
     <script src="/assets/js/anime.min.js"></script>
     <script src="/assets/js/shoutouts.js"></script>
 		<script>
-			new Parallax(document.getElementById('parallax'));
+			//new Parallax(document.getElementById('parallax'));
 			var lazyLoadInstance = new LazyLoad({});
 			document.addEventListener("DOMContentLoaded", prismHighlight.highlight);
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
