@@ -39,7 +39,8 @@ header.site-header {
 	overflow: hidden;
 	position: relative;
 	padding: 65px 15px 65px 15px;
-	background-image:linear-gradient( #1e3fd3, #1e3fd3ea, #1e3fd3, #1e3fd3a5, #2355e070, #2f00ffa9);
+	/*background-color: #d536b3;*/
+	background-image:linear-gradient( #d536b3, #ca196f);
 	/*background-image: linear-gradient( #100622, #502e8f, #00d5ff, #f6ff00,#00d5ff,#502e8f,#514fd2);*/
 	/*background-image: url(/assets/images/bg5.png);
 	background-size: cover;
@@ -48,7 +49,19 @@ header.site-header {
 	color: white;
 }
 
-.awarica-landing-page-jumbotron .container {
+.awarica-jumbotron {
+	overflow: hidden;
+	position: relative;
+	padding: 65px 15px 65px 15px;
+	background-image:linear-gradient( #d536b3, #ca196f);
+	color: white;
+}
+
+a {
+	color: #d536b3;
+}
+
+.awarica-landing-page-jumbotron .container, .awarica-jumbotron .container {
 	position: relative;
 }
 

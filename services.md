@@ -1,4 +1,4 @@
 ---
 layout: awarica-page
-title: Contact
+title: Our Services
 ---
