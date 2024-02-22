@@ -38,7 +38,7 @@ header.site-header {
 .awarica-landing-page-jumbotron {
 	overflow: hidden;
 	position: relative;
-	padding: 65px 15px 65px 15px;
+	padding: 63px 15px 45px 15px;
 	/*background-color: #d536b3;*/
 	background-image:linear-gradient( #d536b3, #ca196f);
 	/*background-image: linear-gradient( #100622, #502e8f, #00d5ff, #f6ff00,#00d5ff,#502e8f,#514fd2);*/
@@ -74,11 +74,11 @@ a {
 	opacity: 0.7;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
 	.awarica-landing-page-jumbotron {
 		padding: 115px 0 90px 0;
 	}
-}
+}*/
 
 main.container {
 	padding-top: 15px;
