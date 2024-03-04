@@ -14,15 +14,8 @@ Sweden
 
 <br>
 
-<h3>Sales</h3>
+<h3>Sales and Support</h3>
 Email: sales@awarica.com
-
-Phone: +46852504190
-
-<br>
-
-<h3>Support</h3>
-Email: support@awarica.com
 
 Phone: +46852504190
 
