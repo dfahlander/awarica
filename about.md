@@ -15,6 +15,6 @@ David's journey with Awarica began with a vision to simplify app development and
 
 Under David's leadership, Awarica has steadily grown and achieved a leading position with Dexie.js. Dexie.js has become a staple in its field of libraries for app developers.
 
-With the launch of Dexie Cloud on March 7, 2024, Awarica continues to innovate and revolutionize app development even further. Dexie Cloud offers a comprehensive solution for data storage and synchronization, designed to streamline the app development process and enhance user experiences.
+With the launch of Dexie Cloud on March 27, 2024, Awarica continues to innovate and revolutionize app development even further. Dexie Cloud offers a comprehensive solution for data storage and synchronization, designed to streamline the app development process and enhance user experiences.
 
 Join us on our journey to revolutionize app development with Awarica AB.
